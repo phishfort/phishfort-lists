@@ -1,27 +1,31 @@
-["airdrop-binance.com",
- "auroradao.co.uk",
- "binanceethereum.com",
- "etherwalletlogin.club",
- "etherwalletlogin.online",
- "httpsmyetherwallet.pw",
- "idex.marketing",
- "myelherwallet.co",
- "myetherlwaliet.info",
- "myetherswallet.site",
- "myetherwalletly.com",
- "myetherwallets.live",
- "myethrwallet.com.co"]
+["bd-bitfinex.com",
+ "bitfniex.com",
+ "bittrex.online",
+ "coinbasesupportnumbers.com",
+ "myetherwallet-binance.space",
+ "myetherwallet-check.space",
+ "myetherwallet-ether.space",
+ "myetherwallet-mi.space",
+ "pax-ful.com",
+ "paxful1.com",
+ "shapeshifit.me",
+ "shapeshifted.net",
+ "stobinance.com",
+ "xn--idx-tra.market",
+ "xn--raen-k0ac.com"]
 **********
-myelherwallet.co: https://urlscan.io/result/2c929fbf-b40b-4258-832d-b62707395969/ added on 2018-08-26 15:31:07.794596
-etherwalletlogin.online: https://urlscan.io/result/9cdc787c-b14b-4ced-8d7f-afd11a27535b/ added on 2018-08-26 15:31:07.794701
-binanceethereum.com: https://urlscan.io/result/964a7fe8-6065-4197-a8df-b1ccb8adbef7/ added on 2018-08-26 15:31:07.794795
-idex.marketing: https://urlscan.io/result/f4024aef-74a2-4a18-90e0-00bc53255ba0/ added on 2018-08-26 15:31:07.794889
-myethrwallet.com.co: https://urlscan.io/result/5fc288d1-3d01-429a-9d89-cdf3b40018f2/ added on 2018-08-26 15:31:07.795457
-myetherwalletly.com: https://urlscan.io/result/4d2a9402-589c-44bf-bf0b-b49f6b5c8ed8/ added on 2018-08-26 15:31:07.795568
-myetherswallet.site: https://urlscan.io/result/2f8f25c4-7a2e-4024-88e1-ef78279e7c53/ added on 2018-08-26 15:31:07.796561
-myetherlwaliet.info: https://urlscan.io/result/f20ae6c9-8120-4731-bef4-ed49ea0217c5/ added on 2018-08-26 15:31:07.797382
-auroradao.co.uk: https://urlscan.io/result/b2b20834-9d55-48d0-bdd0-cb17fc45c959/ added on 2018-08-26 15:31:07.799372
-myetherwallets.live: https://urlscan.io/result/ff1d6f4f-fbde-45f9-9291-e7852d148f1d/ added on 2018-08-26 15:31:07.800114
-etherwalletlogin.club: https://urlscan.io/result/f955abd7-0a7a-4663-84c0-60eac7e7aa2d/ added on 2018-08-26 15:31:07.800495
-httpsmyetherwallet.pw: https://urlscan.io/result/286b383c-38ff-4cf2-87d9-a3070d49006c/ added on 2018-08-26 15:31:07.801195
-airdrop-binance.com: https://urlscan.io/result/80e6685e-f226-42e6-aa91-a4054ecd6d11/ added on 2018-08-26 15:31:07.801349
+stobinance.com: https://urlscan.io/result/bd0a3fcf-9205-48ca-8b21-4b36101d30c8/ added on 2018-11-02 09:48:39.481013
+pax-ful.com: https://urlscan.io/result/565a10a5-3a69-4481-91d0-6f24ef61cd29/ added on 2018-11-02 09:48:39.486127
+myetherwallet-mi.space: https://urlscan.io/result/c8ace3b2-76de-448e-a796-04f165b15c6e/ added on 2018-11-02 09:48:39.493163
+bittrex.online: https://urlscan.io/result/f4954eed-1c90-4bef-8176-c9a77b6edaf6/ added on 2018-11-02 09:48:39.493843
+paxful1.com: https://urlscan.io/result/1bc91c94-0507-4d98-b655-b1f834841162/ added on 2018-11-02 09:48:39.495939
+bd-bitfinex.com: https://urlscan.io/result/04361100-d96a-4db8-89a8-9c58436db1e1/ added on 2018-11-02 09:48:39.496401
+myetherwallet-binance.space: https://urlscan.io/result/dfc54e0f-6998-42a5-bc82-5ff1b3ea24ff/ added on 2018-11-02 09:48:39.496743
+xn--raen-k0ac.com: https://urlscan.io/result/45422412-00dc-4e51-a019-abf9c93b2292/ added on 2018-11-02 09:48:39.499738
+shapeshifit.me: https://urlscan.io/result/23a95132-2b37-4909-a479-d378ecc69d68/ added on 2018-11-02 09:48:39.511018
+xn--idx-tra.market: https://urlscan.io/result/e081aab0-e549-4c1c-9b20-535c5bb3dc01/ added on 2018-11-02 09:48:39.514225
+myetherwallet-check.space: https://urlscan.io/result/b61f19cd-29ba-4b58-80aa-c6445159e1c1/ added on 2018-11-02 09:48:39.515938
+shapeshifted.net: https://urlscan.io/result/b7586f8a-3dba-46ac-8d51-86e52e7e6ecd/ added on 2018-11-02 09:48:39.517084
+myetherwallet-ether.space: https://urlscan.io/result/37a1bf38-3e11-4b93-9867-f094914275fa/ added on 2018-11-02 09:48:39.523511
+bitfniex.com: https://urlscan.io/result/b8e0ed28-1d8d-4dac-aff6-cf6a3daccb6f/ added on 2018-11-02 09:48:39.528838
+coinbasesupportnumbers.com: https://urlscan.io/result/b8c88167-71a2-48df-b838-a2009756ccdb/ added on 2018-11-02 09:48:39.538451
