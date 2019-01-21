@@ -1,11 +1,3 @@
-# PhishFort counter-phishing repo
-This repository holds PhishFort's latest counter-phishing lists, as well as
-containing a script that can be used by any other third party contributors to
-the EAL project.
+# PhishFort Counter-Phishing Lists
+This repository contains a blacklist and whitelist of domains maintained by [PhishFort](https://www.phishfort.com). These lists are used by the PhishFort | Protect browser plugin ([Chrome](https://chrome.google.com/webstore/detail/phishfort-protect/bdiohckpogchppdldbckcdjlklanhkfc), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/protect/)), as well a number of third-party browser plugins and services to protect their users from crypto phishing attacks and scams. 
 
-Instructions for contributing to the blacklists can be found here:
-
-https://harrydenley.com/eal-using-third-party-blacklists/
-
-The script process_new_file.py helps to automate the process of pushing the latest blacklists
-to the repo whilst adhering to the restrictions set out by the EAL project.
