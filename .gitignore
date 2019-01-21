@@ -156,3 +156,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+confirmedPhishes.txt
+metamask_pull.txt
+internal_domain_tracking.json
