@@ -536,5 +536,6 @@
   "ParadexIO",
   "Bancor",
   "RadarRelay",
-  "bisq_network"
+  "bisq_network",
+  "coindesk"
 ]
