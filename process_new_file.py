@@ -4,7 +4,7 @@ import os
 from shutil import copyfile
 import argparse
 import sys
-from settings import urlscanapikey
+#from settings import urlscanapikey
 import time
 from pprint import pformat
 from tldextract import tldextract
@@ -146,11 +146,14 @@ def prepare_pull_metamask(phishfort_blacklist):
         if entry in blacklist or entry in whitelist:
             continue
         final.append(entry)
+        print(entry)
         description+="{}: {} added on {}\n".format(entry, screenshots.get(entry, "*not available*"), str(datetime.now()))
     if len(final) > 0:
         final.sort()
+        print(final)
+        input()
         f = open("metamask_pull.txt", 'w')
-        f.write(pformat(final).replace("'", '"'))
+        f.write(pformat(final))#.replace("'", '"'))
         f.write("\n**********\n")
         f.write(description)
         f.close()
@@ -164,23 +167,32 @@ def get_existing_blacklists():
     try:
         r = requests.get("https://api.infura.io/v2/blacklist")
         blacklist = r.json()['blacklist']
+        print(r.json())
+        input()
+
     except:
-        print ("[x] Error fetching blacklist, please ensure that you are able to reach the EAL endpoint.")
+        print ("[x] Error fetching blacklist, please ensure that you are able to reach the Infura endpoint.")
         return False
     try:
-        r2 = requests.get("https://etherscamdb.info/api/blacklist/")
-        blacklist = blacklist + r2.json()
-    except:
+        r2 = requests.get("https://api.cryptoscamdb.org/v1/blacklist")
+        print (r2.json().keys())
+        blacklist = blacklist + r2.json()['result']
+        print(r2.json())
+        input()
+    except Exception as e:
+        print(e)
         print ("[x] Error fetching blacklist, please ensure that you are able to reach the Etherscam endpoint.")
         return False
 
     try:
         r3 = requests.get("https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/config.json")
         blacklist = blacklist + r3.json()['blacklist']
+        print(r3.json())
+        input()
     except Exception as e:
         print (e)
         print ("Error parsing metamask blacklist")
-        False
+        return False
     
     return set(blacklist)
 
@@ -206,8 +218,8 @@ def extend_json_dict_file(filename, contents):
     f.close()
 
 def get_existing_whitelist():
-    r = requests.get("https://etherscamdb.info/api/whitelist/")
-    whitelist = r.json()
+    r = requests.get("https://api.cryptoscamdb.org/v1/whitelist")
+    whitelist = r.json()['result']
     r3 = requests.get("https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/config.json")
     whitelist = whitelist + r3.json()['whitelist']
     return whitelist
@@ -221,8 +233,9 @@ def load_file():
         print ("[x] Error - the blacklist file provided is empty")
         sys.exit()
 
-
+    
     blacklist = get_existing_blacklists()
+    print(blacklist)
     print ("[+] Currently {} entries in EAL blacklist...".format(len(blacklist)))
     if not blacklist:
         sys.exit()
@@ -252,7 +265,7 @@ def load_file():
             continue
         print ("\t[+] Added {}".format(clean_entry))
         new_entries.add(clean_entry)
-        urlscan_screenshot(clean_entry)
+        #urlscan_screenshot(clean_entry)
         internal_record[clean_entry] = str(time.time())
     print ("[+] Found {} new entries...".format(len(new_entries)))
 
