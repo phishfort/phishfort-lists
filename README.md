@@ -21,4 +21,4 @@ The whitelist directory contains a number of lists we maintain for partner proje
 
 Although we recommend loading directly from GitHub to maintain a perfect sync with the most up-to-date version of the PhishFort lists, significant performance improvements can be seen with using a CDN. For example by accessing the blacklist via jsdelivr CDN [here](https://cdn.jsdelivr.net/gh/phishfort/phishfort-lists@master/blacklists/domains.json).
 
-**We cannot guarantee the accuracy of lists downloaded via a 3rd party content delivery network.**
+**We cannot guarantee the integrity of lists downloaded via a 3rd party content delivery network. We recommend using the [PhishFort Public Blocklist API](https://lookup.phishfort.com/docs) instead of CDNs.**
