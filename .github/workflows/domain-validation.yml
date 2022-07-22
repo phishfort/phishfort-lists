@@ -1,4 +1,4 @@
-name: JSON File Integrity Validation
+name: Blacklist & Whitelist Domain Validation
 
 on:
     pull_request:
@@ -14,4 +14,4 @@ jobs:
               with:
                   node-version: 14.x
             - run: npm install
-            - run: npm run json-validation
+            - run: npm run url-validation
