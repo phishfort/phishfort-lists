@@ -60,5 +60,7 @@
   "run.app",
   "vercel.app",
   "vercel.dev",
+  "googleapis.com",
+  "appspot.com",
   "repl.co"
 ]
