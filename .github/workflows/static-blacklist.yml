@@ -16,4 +16,4 @@ jobs:
               with:
                   node-version: 14.x
             - run: npm install
-            - run: npm run you-shall-not-pass
+            - run: npm run static-bl-fail

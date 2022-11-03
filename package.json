@@ -6,7 +6,7 @@
     "json-validation": "node workflow_scripts/json-validation.js",
     "url-validation": "node workflow_scripts/url-validation.js",
     "json-duplicates": "node workflow_scripts/no-duplicates.js",
-    "you-shall-not-pass": "echo \"Error: Blacklists directory is automatically managed and CANNOT be altered in a pull request. Please contact PhishFort team.\" && exit 1"
+    "static-bl-fail": "echo \"Error: Blacklists directory is automatically managed by internal systems and CANNOT be altered in a pull request. Please contact PhishFort team.\" && exit 1"
 
   },
   "repository": {
