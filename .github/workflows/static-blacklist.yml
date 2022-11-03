@@ -1,4 +1,4 @@
-name: Static Blacklist Check
+name: Static Blacklist Only (changes to blacklists not supported)
 
 on:
     pull_request:
