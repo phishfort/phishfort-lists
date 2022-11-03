@@ -4,7 +4,10 @@
   "description": "This repository contains a blacklist and whitelist of domains maintained by [PhishFort](https://www.phishfort.com). These lists are used by the PhishFort Protect browser plugin ([Chrome](https://chrome.google.com/webstore/detail/phishfort-protect/bdiohckpogchppdldbckcdjlklanhkfc), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/protect/)), as well a number of third-party browser plugins and services to protect their users from crypto phishing attacks and scams.",
   "scripts": {
     "json-validation": "node workflow_scripts/json-validation.js",
-    "url-validation": "node workflow_scripts/url-validation.js"
+    "url-validation": "node workflow_scripts/url-validation.js",
+    "json-duplicates": "node workflow_scripts/no-duplicates.js",
+    "you-shall-not-pass": "echo \"Error: Blacklists directory is automatically managed and CANNOT be altered in a pull request. Please contact PhishFort team.\" && exit 1"
+
   },
   "repository": {
     "type": "git",

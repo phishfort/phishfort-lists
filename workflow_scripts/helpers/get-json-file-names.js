@@ -1,9 +1,9 @@
 const glob = require("glob");
 const { log } = require("./log");
 
-const getJsonFileNames = () => {
+const getJsonFileNames = (globSelector) => {
     return new Promise((resolve, reject) => {
-        glob("*(whitelists|blacklists)/*.json", (err, files) => {
+        glob(globSelector || "*(whitelists|blacklists)/*.json", (err, files) => {
             if (err) {
                 log.error(err);
             } else {
@@ -16,4 +16,6 @@ const getJsonFileNames = () => {
 module.exports = {
     getJsonFileNames: async () => await getJsonFileNames(),
     getDomainJsonFileNames: () => ["blacklists/domains.json", "whitelists/domains.json"],
+    getJsonWhitelistFileNames: async () => await getJsonFileNames("whitelists/*.json"),
+
 };
