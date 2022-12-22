@@ -163,3 +163,9 @@ metamask_pull.txt
 internal_domain_tracking.json
 
 # test push
+
+# ide
+/.idea
+
+# node
+/node_modules
