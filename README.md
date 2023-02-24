@@ -3,9 +3,11 @@
 
 # PhishFort Counter-Phishing Lists
 
-> Now protecting over 402 million users across the globe! 
+> Now protecting over 402 million monthly active users across the globe! 
 
 This repository contains a blacklist and whitelist of domains maintained by [PhishFort](https://www.phishfort.com). These lists are used by the PhishFort Protect browser plugin ([Chrome](https://chrome.google.com/webstore/detail/phishfort-protect/bdiohckpogchppdldbckcdjlklanhkfc), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/protect/)), as well a number of third-party browser plugins and services to protect their users from crypto phishing attacks and scams.
+
+**If you would like to make use of this list commercially or at scale [contact us](mailto:hello@phishfort.com) about using our [PhishFort List Lookup API](https://lookup.phishfort.com/).** We cannot guarantee the integrity of lists downloaded via a 3rd party content delivery network, as a result we advise to use our lookup API instead.
 
 
 
