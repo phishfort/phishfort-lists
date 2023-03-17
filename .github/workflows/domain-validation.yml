@@ -1,0 +1,17 @@
+name: Blacklist & Whitelist Domain Validation
+
+on:
+    pull_request:
+        branches:
+            - master
+jobs:
+    domain-validation-check:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: JSON files syntax and URL validation
+              uses: actions/setup-node@v2
+              with:
+                  node-version: 14.x
+            - run: npm install
+            - run: npm run url-validation
