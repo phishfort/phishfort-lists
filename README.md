@@ -1,8 +1,4 @@
-![PhishFort Logo](https://i.imgur.com/mQRhIWh.png#gh-dark-mode-only)
-![PhishFort Logo](https://i.imgur.com/YBah4n1.png#gh-light-mode-only)
-
-
-
+![PhishFort Logo](https://i.imgur.com/5uGArpd.png)
 
 # PhishFort Counter-Phishing Lists
 
