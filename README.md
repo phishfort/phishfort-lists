@@ -1,4 +1,4 @@
-![PhishFort Logo](https://i.imgur.com/5uGArpd.png)
+![PhishFort Logo](https://static.phishfort.com/general/phishfort_logo.png)
 
 # PhishFort Counter-Phishing Lists
 
