@@ -1,5 +1,4 @@
-![PhishFort Logo](https://raw.githubusercontent.com/xtr3sor/phishfort-lists/master/logo/logo-dark.png#gh-dark-mode-only)
-![PhishFort Logo](https://raw.githubusercontent.com/xtr3sor/phishfort-lists/master/logo/logo-light.png#gh-light-mode-only)
+![PhishFort Logo](https://static.phishfort.com/general/phishfort_logo.png)
 
 # PhishFort Counter-Phishing Lists
 
