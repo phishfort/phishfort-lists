@@ -741,5 +741,6 @@
   "Westaff",
   "remedystaffing",
   "SelectStaffing",
-  "UBAGroup"
+  "UBAGroup",
+  "FixedFloat"
 ]
