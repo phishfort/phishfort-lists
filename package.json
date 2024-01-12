@@ -7,7 +7,6 @@
     "url-validation": "node workflow_scripts/url-validation.js",
     "json-duplicates": "node workflow_scripts/no-duplicates.js",
     "static-bl-fail": "echo \"Error: Blacklists directory is automatically managed by internal systems and CANNOT be altered in a pull request. Please contact PhishFort team.\" && exit 1"
-
   },
   "repository": {
     "type": "git",
@@ -22,6 +21,6 @@
   "homepage": "https://github.com/phishfort/phishfort-lists#readme",
   "dependencies": {
     "glob": "^8.0.3",
-    "tldjs": "^2.3.1"
+    "tldts": "^6.1.2"
   }
 }
