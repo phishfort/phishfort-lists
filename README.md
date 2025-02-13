@@ -1,8 +1,30 @@
 ![PhishFort Logo](https://static.phishfort.com/general/phishfort_logo.png)
 
+# 🚨 Important Notice: Migration to the Public Blocklist API 🚨
+
+PhishFort has always been committed to supporting the abuse-fighting community by providing access to up-to-date threat intelligence. As part of our ongoing efforts to enhance security and privacy, we are **retiring the public blocklist on GitHub and transitioning to the Public Blocklist API at [lookup.phishfort.com](https://lookup.phishfort.com).**  
+
+## 🔹 What’s Changing?  
+- The GitHub-hosted list will begin to be **deprecated and disabled from May 1, 2025**.  
+- We are moving to a **protected** system to better safeguard the privacy of our users, partners, and the broader security community.  
+- The **Public Blocklist API** ensures continued access to our intelligence while maintaining an additional layer of privacy and security.  
+
+## 🔹 Our Commitment Remains  
+PhishFort will continue working closely with the abuse-fighting community and our trusted partners to combat phishing and online threats. This transition allows us to provide **more effective protection while ensuring responsible data sharing**.  
+
+## 🔹 Action Required  
+If you rely on this GitHub-hosted list, please **migrate to the API before May 1, 2025,** to avoid disruptions.  
+
+For more details, visit our documentation at [https://lookup.phishfort.com/](https://lookup.phishfort.com/) or contact us at [partner-sharing-requests@phishfort.com](mailto:partner-sharing-requests@phishfort.com).  
+
+Thank you for your continued support in keeping the internet safer! 🚀
+
+
+---
+
 # PhishFort Counter-Phishing Lists
 
-> Now protecting over 402 million monthly active users across the globe! 
+> Now protecting over 418 million monthly active users across the globe! 
 
 This repository contains a blacklist and whitelist of domains maintained by [PhishFort](https://www.phishfort.com). These lists are used by the PhishFort Protect browser plugin ([Chrome](https://chrome.google.com/webstore/detail/phishfort-protect/bdiohckpogchppdldbckcdjlklanhkfc), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/protect/)), as well a number of third-party browser plugins and services to protect their users from crypto phishing attacks and scams.
 
