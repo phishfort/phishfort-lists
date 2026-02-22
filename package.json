@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/phishfort/phishfort-lists#readme",
   "dependencies": {
-    "glob": "^8.0.3",
+    "glob": "^13.0.6",
     "tldts": "^6.1.2"
   }
 }
